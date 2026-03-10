@@ -12,7 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Konverter Suhu Pro',
       theme: ThemeData(
+<<<<<<< HEAD
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+=======
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+>>>>>>> c1e68a386be116ffbccd562650e1a288d53e7110
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Konverter Suhu'),
@@ -92,10 +96,17 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
+<<<<<<< HEAD
                 'Muhammad Irsyadul Ibad',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               const Text('NIM: 3124521054', style: TextStyle(fontSize: 16)),
+=======
+                'Nabila Azzahra Prasetya',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+              const Text('NIM 3124521034', style: TextStyle(fontSize: 16)),
+>>>>>>> c1e68a386be116ffbccd562650e1a288d53e7110
               const SizedBox(height: 30),
 
               // Unit Selector (Input Mode)

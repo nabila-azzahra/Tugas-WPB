@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # flutter_application_2
+=======
+# flutter_application_1
+>>>>>>> c1e68a386be116ffbccd562650e1a288d53e7110
 
 A new Flutter project.
 
@@ -15,4 +19,9 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+<<<<<<< HEAD
 [alt text](<image.png>)
+=======
+
+![alt text](<image.png>)
+>>>>>>> c1e68a386be116ffbccd562650e1a288d53e7110
