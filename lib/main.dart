@@ -92,10 +92,10 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Muhammad Irsyadul Ibad',
+                'Nabila Azzahra Prasetya',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
-              const Text('NIM: 3124521054', style: TextStyle(fontSize: 16)),
+              const Text('NIM: 3124521034', style: TextStyle(fontSize: 16)),
               const SizedBox(height: 30),
 
               // Unit Selector (Input Mode)
