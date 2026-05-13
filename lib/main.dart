@@ -35,6 +35,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tugas WPB Nabila',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.white,
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF0088CC)),
+        useMaterial3: true,
+      ),
       home: Consumer<AuthService>(
         builder: (context, auth, child) {
           // Perbaikan: Menghapus keyword 'const' agar tidak error saat compile

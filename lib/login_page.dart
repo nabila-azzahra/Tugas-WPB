@@ -50,7 +50,7 @@ class LoginPage extends StatelessWidget {
                 obscureText: true,
                 decoration: const InputDecoration(
                   prefixIcon: Icon(Icons.lock_outline),
-                  hintText: "********",
+                  hintText: "******",
                   border: UnderlineInputBorder(),
                 ),
               ),
