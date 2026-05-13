@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 name: flutter_application_2
-=======
-name: flutter_application_1
->>>>>>> c1e68a386be116ffbccd562650e1a288d53e7110
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -34,6 +30,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  provider: ^6.1.2
+
+  # shared_preferences is a Flutter plugin that provides a persistent store for simple data.
+  shared_preferences: ^2.3.0
+
+  # firebase utils is a Flutter plugin that provides a persistent store for simple data.
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.5.3
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
